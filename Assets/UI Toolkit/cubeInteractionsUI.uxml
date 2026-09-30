@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Stylesheet.uss?fileID=7433441132597879392&amp;guid=9555217bfe3087d4a8f2953f3345511d&amp;type=3#Stylesheet" />
+    <ui:VisualElement name="container" style="flex-grow: 1; justify-content: flex-end; align-items: stretch;">
+        <ui:VisualElement name="container_buttons" style="flex-basis: 30%; flex-direction: row; justify-content: space-around; align-items: center; margin-left: 0; margin-right: 0; background-color: rgba(0, 50, 75, 0.28); padding-right: 10%; padding-left: 10%; border-top-color: rgb(0, 0, 0); border-top-width: 4px;">
+            <ui:Button text="PLAY" parse-escape-sequences="true" display-tooltip-when-elided="true" name="play_button" class="button" />
+            <ui:Button text="STOP" parse-escape-sequences="true" display-tooltip-when-elided="true" name="stop_button" class="button" />
+            <ui:Button text="CHANGE COLOR" parse-escape-sequences="true" display-tooltip-when-elided="true" name="color_button" class="button" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
