@@ -128,8 +128,8 @@ MonoBehaviour:
   rotationSpeed: 50
   isRotating: 1
   colorMaterials:
+  - {fileID: 2100000, guid: 0edaa2643aba77c459f833c18cc11f6c, type: 2}
   - {fileID: 2100000, guid: 21712c2505555d54d99c78179538b62a, type: 2}
   - {fileID: 2100000, guid: 885b85d27f7f16149af7597a5859bbf4, type: 2}
   - {fileID: 2100000, guid: d0f0653cccd00aa45b5f6396cab1b968, type: 2}
   - {fileID: 2100000, guid: c1d3b4efb9924924fa842616f9c50dea, type: 2}
-  - {fileID: 2100000, guid: 0edaa2643aba77c459f833c18cc11f6c, type: 2}

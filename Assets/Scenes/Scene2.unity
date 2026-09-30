@@ -427,7 +427,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1011537368}
   - component: {fileID: 1011537369}
-  - component: {fileID: 1011537373}
   - component: {fileID: 1011537371}
   - component: {fileID: 1011537372}
   m_Layer: 5
@@ -501,64 +500,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CubeUIController
   cube: {fileID: 1792640948}
---- !u!1931382934 &1011537373
-PanelRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1011537366}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  serializedVersion: 1
-  m_PanelSettings: {fileID: 11400000, guid: de2eff0eae174b742ba66c0edb647785, type: 2}
-  sourceAsset: {fileID: 9197481963319205126, guid: 483bc510bb21a66418d9b83929a951d4, type: 3}
-  m_ParentUI: {fileID: 0}
-  m_WorldSpaceSizeMode: 1
-  m_WorldSpaceWidth: 1920
-  m_WorldSpaceHeight: 1080
-  m_PivotReferenceSize: 0
-  m_Pivot: 0
-  m_Position: 0
 --- !u!114 &1792640948 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 3127645442787756827, guid: 602d93fb745ce1f4bab60b2e561a2212, type: 3}
@@ -581,10 +522,6 @@ PrefabInstance:
     - target: {fileID: 261812728216443376, guid: 602d93fb745ce1f4bab60b2e561a2212, type: 3}
       propertyPath: m_Name
       value: Cube
-      objectReference: {fileID: 0}
-    - target: {fileID: 3127645442787756827, guid: 602d93fb745ce1f4bab60b2e561a2212, type: 3}
-      propertyPath: m_Enabled
-      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6659140362694253311, guid: 602d93fb745ce1f4bab60b2e561a2212, type: 3}
       propertyPath: m_LocalPosition.x
